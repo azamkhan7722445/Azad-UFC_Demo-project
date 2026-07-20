@@ -1,0 +1,75 @@
+{
+    "version": 1,
+    "name": "Custom Input Actions",
+    "maps": [
+        {
+            "name": "Custom",
+            "id": "a44c79dc-cd43-42db-aab8-da7eb5fab5cd",
+            "actions": [
+                {
+                    "name": "BackToMainScene",
+                    "type": "Button",
+                    "id": "9b65c48a-4fb3-4e15-a49c-759e4e010ff9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Replay",
+                    "type": "Button",
+                    "id": "9ed45c05-6c42-479a-af49-0095c05b46e3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Autoplay",
+                    "type": "Button",
+                    "id": "84722159-fb9d-4137-af44-4daae970fa80",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "be0bf65b-e48e-418c-b9c3-8736630a5693",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BackToMainScene",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "90e58041-2a4c-4c95-82f2-0cf02d36400b",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Replay",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d1148a35-17b8-46a7-ab9e-9591df2253d4",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Autoplay",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
