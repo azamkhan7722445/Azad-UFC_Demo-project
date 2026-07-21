@@ -4993,7 +4993,11 @@ PrefabInstance:
     - target: {fileID: 449078141145100345, guid: 82af57629e9576646a6f534b7e474561, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0dff78d7ff9d786499bf87c430e91114, type: 3}
+      objectReference: {fileID: 0}
+    - target: {fileID: 449078141145100345, guid: 82af57629e9576646a6f534b7e474561, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 449078141145100345, guid: 82af57629e9576646a6f534b7e474561, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -5028,11 +5032,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1975310169814327552, guid: 82af57629e9576646a6f534b7e474561, type: 3}
       propertyPath: m_fontSize
-      value: 120
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 1975310169814327552, guid: 82af57629e9576646a6f534b7e474561, type: 3}
       propertyPath: m_fontStyle
-      value: 3
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975310169814327552, guid: 82af57629e9576646a6f534b7e474561, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975310169814327552, guid: 82af57629e9576646a6f534b7e474561, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4405946137707746727, guid: 82af57629e9576646a6f534b7e474561, type: 3}
       propertyPath: m_Pivot.x
